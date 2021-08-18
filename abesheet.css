@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body{
+    background-image:url(./abehaikei.jpgsmall);
+}
+
+
+h1{
+text-align: center;
+margin-top: 1cm;
+}
+/*----------顔写真----------*/
+
+.image{
+    border: solid 1px  red;
+    
+    
+}
+
+
+/*----------プロフィール----------*/
+
+.profile{
+   border: solid 1px orange;
+   display: inline;
+   margin-top: 0ch;
+
+}
+
+.profile ul{
+    list-style: none;
+}
+
+
+/*----------英語表記----------*/
+.english{
+    border: solid 1px sienna;
+    margin-right: 700px;
+
+}
+
+
+/*----------住所----------*/
+.add{
+    border: solid 1px black;
+    margin-right: 700px;
+}
+
+.add ul{
+    list-style: none;
+
+}
+
+
+
+
+/*----------コンテンツ----------*/
+
+span{
+    color: red;
+}
+
+
+.content{
+    margin-left: 650px;
+    float: right;
+    font-weight: bold;
+}
+
+
+.content p{
+    text-align: center;
+}
+
+
+
+.dorama{
+    border-top:solid 1px gray;
+}
+.dorama p{
+    text-align: left;
+}
+.dorama p span{
+    text-align: right;
+}
+
+
+
+
+.movie{
+    border-top:solid 1px gray;
+}
+
+.movie p{
+    text-align:left;
+
+}
+
+.text{
+    border-top:solid 1px gray;
+}
+
+.text p{
+  text-align: left;
+}
