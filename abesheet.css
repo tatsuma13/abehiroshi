@@ -1,19 +1,53 @@
 @charset "UTF-8";
+/*----------背景----------*/
 
 body{
     background-image:url(./abehaikei.jpgsmall);
 }
 
+/*----------サイドメニュー----------*/
+.sidemenu{
+    background-color:rgb(211, 211, 241) ;
+    width: 180px;
+    height: 160%;
+    position: absolute;
+    margin-top: 0px;
+}
 
+.sidemenu ul li{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------h1----------*/
 h1{
 text-align: center;
 margin-top: 1cm;
 }
+
+
 /*----------顔写真----------*/
 
 .image{
-    border: solid 1px  red;
-    
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 5.5cm;
     
 }
 
@@ -21,34 +55,39 @@ margin-top: 1cm;
 /*----------プロフィール----------*/
 
 .profile{
-   border: solid 1px orange;
    display: inline;
-   margin-top: 0ch;
-
+   position: absolute;
+   margin-top: 510px;
+   margin-left: 3.5cm;
 }
 
-.profile ul{
+.profile ul li{
     list-style: none;
 }
 
 
 /*----------英語表記----------*/
 .english{
-    border: solid 1px sienna;
-    margin-right: 700px;
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 5.5cm;
 
 }
 
+
+/*----------メール----------*/
+.mail{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 5.5cm;
+
+}
 
 /*----------住所----------*/
 .add{
-    border: solid 1px black;
-    margin-right: 700px;
-}
-
-.add ul{
-    list-style: none;
-
+    position: absolute;
+    margin-top: 850px;
+    margin-left: 5.5cm;
 }
 
 
@@ -62,17 +101,15 @@ span{
 
 
 .content{
-    margin-left: 650px;
+    position: relative;
+    margin-right: 100px;
     float: right;
     font-weight: bold;
 }
 
-
 .content p{
     text-align: center;
 }
-
-
 
 .dorama{
     border-top:solid 1px gray;
@@ -80,11 +117,9 @@ span{
 .dorama p{
     text-align: left;
 }
-.dorama p span{
-    text-align: right;
+.dorama ul li{
+    list-style: none;
 }
-
-
 
 
 .movie{
@@ -95,6 +130,14 @@ span{
     text-align:left;
 
 }
+
+.movie ul li{
+  list-style: none;
+
+
+}
+
+
 
 .text{
     border-top:solid 1px gray;
