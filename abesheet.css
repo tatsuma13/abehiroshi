@@ -6,6 +6,13 @@ body{
 }
 
 /*----------サイドメニュー----------*/
+iframe{
+    width: 200px;
+    height: 100%;
+    margin-top:0 ;
+}
+
+
 .sidemenu{
     background-color:rgb(211, 211, 241) ;
     width: 180px;
@@ -17,23 +24,6 @@ body{
 .sidemenu ul li{
     list-style: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*----------h1----------*/
 h1{
@@ -57,8 +47,8 @@ margin-top: 1cm;
 .profile{
    display: inline;
    position: absolute;
-   margin-top: 510px;
-   margin-left: 3.5cm;
+   margin-top: 480px;
+   margin-left: 4.5cm;
 }
 
 .profile ul li{

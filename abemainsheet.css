@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.bace{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.side{
+ width: 20%;
+}
+
+.main{
+    display: flex;
+    width: 80%;
+
+}
